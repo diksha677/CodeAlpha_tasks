@@ -1,8 +1,3 @@
-# ==============================
-# Network Intrusion Detection System (NIDS)
-# Windows + Python 3.13 SAFE VERSION
-# ==============================
-
 import os
 os.environ["SCAPY_CACHE"] = "0"   # IMPORTANT: Fixes PermissionError on Windows
 
